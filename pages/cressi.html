@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="container-fluid">
 
     <header>
 
@@ -43,7 +43,7 @@
     </header>
 
     <main>
-        <div class="cressi d-flex justify-content-center p-3 ">
+        <div class="cressi container-fluid d-flex justify-content-center p-3 ">
             <div class="card p-2 border-0" style="width: 95%">
                 <img src="../assets/img/cressi.png" class="card-img-top" alt="cressi">
                 <div class="card-body">
@@ -54,44 +54,85 @@
 
 
             <div class="prductos-titulo text-center  mb-4">
-                <h2>Productos</h2>
+                <h1>Productos</h1>
             </div>
 
-            <div class="card-group">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
-                </div>
+
+  
+      <div class="productos row ">
+        <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+          <div class="producto-img"> <img src="../assets/img/trajes2.jpg" class="img-fluid" alt="">
+          </div>
+          <h5 class="producto-titulo text-center ">Trajes Isotermicos</h5>
+          <a href="./tienda.html" type="button" >Ver mas</a>
+        </div>
+
+        <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+          <div class="producto-img"> <img src="../assets/img/chaleco.jpg" class="img-fluid" alt="">
+          </div>
+          <h3 class="producto-titulo text-center"> Chalecos</h3>
+          <a href="./tienda.html" type="button" >Ver mas</a>
+         </div>
+
+         <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+          <div class="producto-img"> <img src="../assets/img/consolas.jpg" class="img-fluid" alt="">
+          </div>
+          <h3 class="producto-titulo text-center"> Consolas</h3>
+          <a href="./tienda.html" type="button" >Ver mas</a>
+         </div>
+         <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+          <div class="producto-img"> <img src="../assets/img/reguladores.jpg" class="img-fluid" alt="">
+          </div>
+          <h5 class="producto-titulo text-center ">Reguladores</h5>
+          <a href="./tienda.html" type="button" >Ver mas</a>
+         </div>
+ 
+         <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+           <div class="producto-img"> <img src="../assets/img/mascara.jpg" class="img-fluid" alt="">
+           </div>
+           <h3 class="producto-titulo text-center">Mascaras</h3>
+           <a href="./tienda.html" type="button" >Ver mas</a>
+          </div>
+ 
+          <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+           <div class="producto-img"> <img src="../assets/img/aletas.jpg" class="img-fluid" alt="">
+           </div>
+           <h3 class="producto-titulo text-center">Aletas</h3>
+           <a href="./tienda.html" type="button" >Ver mas</a>
+          </div>
+
+          <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+              <div class="producto-img"> <img src="../assets/img/computadora.jpg" class="img-fluid" alt="">
               </div>
+              <h3 class="producto-titulo text-center"> Computadoras</h3>
+              <a href="./tienda.html" type="button" >Ver mas</a>
+           </div>
+
+           <div class="producto col-6 d-flex flex-column align-items-center mt-3">
+              <div class="producto-img"> <img src="../assets/img/snorkeling.jpg" class="img-fluid" alt="">
+              </div>
+              <h5 class="producto-titulo text-center ">Snorkeling</h5>
+              <a href="./tienda.html" type="button" >Ver mas</a>
+           </div>
+   
+           <div class="producto col-6 d-flex flex-column align-items-center mt-3 mb-5">
+              <div class="producto-img"> <img src="../assets/img/accesorios.jpg" class="img-fluid" alt="">
+              </div>
+              <h3 class="producto-titulo text-center">Accesorios</h3>
+              <a href="./tienda.html" type="button" >Ver mas</a>
+            </div>
+   
+
+            </div>
+ 
 
 
 
+      </div>
+
+
+
+    </div>        
 
 
 
@@ -120,7 +161,7 @@
 
 
 <footer class="page-footer bg-black">
-    <div class="container d-flex justify-content-center">
+    <div class="container-fluid d-flex justify-content-center">
       <div class="row">
           <div class="m-3 d-flex">
             <!--Whatsapp-->

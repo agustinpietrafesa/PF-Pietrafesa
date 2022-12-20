@@ -412,12 +412,27 @@
     
 }
 
+.producto-img > img{
+    height: 150px;
+    margin: 5px;
+}
 
+.producto > a{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 
-
-
-
-
+.producto-titulo{
+    height: 35px;
+    padding: 0;
+}
 
 
 
