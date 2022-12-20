@@ -143,7 +143,7 @@
 
 /*Footer*/
 
-.footer{
+/* .footer{
     display: flex;
     background-color: black;
     border-top: solid 5px red;
@@ -171,7 +171,7 @@
     height: 50px;
     width: 50px;
     margin: 15px;
-}
+} */
 
 /**********************Pagina Viajes************************/
 
@@ -407,10 +407,11 @@
 
 /********Boostrap******/
 .link-redes > img{
-    width: 35px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
     
-}
+} 
 
 .producto-img > img{
     height: 150px;
@@ -422,7 +423,7 @@
     background-color: black;
     border-radius: 5px;
     height: 35px;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -435,6 +436,21 @@
 }
 
 
+
+@media screen and (min-width:992px) {
+    .footer_redes{ 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+ }
+@media screen and (max-width: 992px) {
+    .footer_redes {
+        justify-content: center;
+
+    }
+
+    
+}
 
 
 
