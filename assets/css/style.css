@@ -6,45 +6,6 @@
     list-style-type: none;
     font-family: 'Lato', sans-serif;
 }
-/* Navegador */
-/* 
-.header{
-    background-color: black;
-    border-bottom: solid 5px red;
-}
-
-.navegador > a{
-    height: 125px;
-    margin-left: 50px;
-}
-
-.navegador{
-    display: flex;
-    
-    
-}
-
-.logo{
-    height: 125px;
-
-}
-
-.nav__barra{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-} */
-
-
-/*Fuente*/
-/* 
-.nav__barra > li > a{
-    font-size: 25px;
-    color: white;
-
-
-}
 
 
 .login > a{
@@ -71,13 +32,6 @@
 } */
 
 /* Main Slider*/
-
-/* .main{
-    width: 90%;
-    margin: 0 auto;
-
-
-} */
 
 .main__video > video{
     width: 100%;
@@ -141,40 +95,9 @@
 
 
 
-/*Footer*/
-
-/* .footer{
-    display: flex;
-    background-color: black;
-    border-top: solid 5px red;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-
-}
-
-.footer > p{
-    color: white;
-    font-size: 20px;
-    margin-left: 20px;
-
-}
-
-.footer__redes{
-    display: flex;
-    margin-right: 20px;
-
-    }
-
-
-.footer__redes > a > img{
-    height: 50px;
-    width: 50px;
-    margin: 15px;
-} */
 
 /**********************Pagina Viajes************************/
-
+/* 
 .viajes__titulo{
     text-align: center;
     margin: 60px;
@@ -233,7 +156,7 @@
     text-align: center;
     font-style: bold;
     margin: 10px;
-}
+} */
 
 /***********************Pagina Cursos********************************************/
 
@@ -474,6 +397,20 @@
 }
 
 
+@media screen and (max-width:576px) {
+    .card-body > a {
+     width: 100px;
+     font-size: 13px;
+
+}
+    .card-body > h5 {
+        font-size: 17px;
+
+}
+     }
+
+
+
 
 @media screen and (min-width:992px) {
     .bs_footer{ 
@@ -503,6 +440,9 @@
         width: 150px;
     }
 
+
+
+
 }
 
 @media screen and (max-width: 1200px){
@@ -519,6 +459,7 @@
     .bs_footer_copy > h5{
         font-size: 17px;
     }
+
 }
 
 
@@ -529,8 +470,14 @@
 
 
 
+/*********Boostrap page viajes********/
 
 
+
+.tarjetas_viajes{
+    margin: 40px;
+    margin-top: 0px;
+}
 
 
 
