@@ -436,6 +436,10 @@
     
 } 
 
+.producto{
+    margin-bottom: 15px;
+}
+
 .producto-img > img{
     height: 150px;
     margin: 5px;
@@ -446,16 +450,26 @@
     background-color: black;
     border-radius: 5px;
     height: 35px;
-    width: 50%;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    
 }
 
 .producto-titulo{
     height: 35px;
     padding: 0;
+}
+
+.bss_prod_titulo > h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.cressi_logo{
+    margin-top: 50px;
 }
 
 
@@ -479,6 +493,10 @@
     .bs_footer_redes{
         justify-content: center;
     }
+    .producto > a{
+        width: 150px;
+    }
+
 }
 
 @media screen and (max-width: 1200px){
