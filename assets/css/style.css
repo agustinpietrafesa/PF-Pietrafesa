@@ -429,7 +429,7 @@
     border-radius: 5px;
 }
 
-.link-redes > img{
+.link-redes > a > img{
     width: 50px;
     height: 50px;
     margin: 10px;
@@ -491,8 +491,13 @@
         align-items: center;
     }
 
+    .bs_footer_copy{
+        margin: 15px;
+    }
+
     .bs_footer_redes{
         justify-content: center;
+    
     }
     .producto > a{
         width: 150px;
@@ -505,7 +510,7 @@
         font-size: 20px;
         margin-left: 30px;
     }
-    .link-redes > img{
+    .link-redes > a > img{
         width: 35px;
         height: 35px;
         margin: 7px;
