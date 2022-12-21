@@ -437,7 +437,8 @@
 } 
 
 .producto{
-    margin-bottom: 15px;
+    padding: 25px;
+    margin-bottom: 10px;
 }
 
 .producto-img > img{
@@ -468,7 +469,7 @@
     margin-bottom: 100px;
     margin-top: 50px;
 }
-.cressi_logo{
+.cressi_logo > img{
     margin-top: 50px;
 }
 
