@@ -451,3 +451,15 @@
 .card-body > a{
     text-decoration: none;
 }
+
+.productos2__img{
+    width: 345px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.productos2__img > a{
+    text-decoration: none;
+}
