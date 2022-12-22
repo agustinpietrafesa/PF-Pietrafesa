@@ -443,3 +443,11 @@
     margin: 40px;
     margin-top: 0px;
 }
+
+
+
+/******Boostrap page index*****/
+
+.card-body > a{
+    text-decoration: none;
+}
