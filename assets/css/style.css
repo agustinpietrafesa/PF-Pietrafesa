@@ -31,68 +31,6 @@
     margin-left: 20px;
 } */
 
-/* Main Slider*/
-
-
-
-/*Main productos*/
-
-/* .main__productos{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font: bold;
-}
-.productos__img{
-    margin: 100px;
-}
-
-.productos__img > a > img{
-    width: 250px;
-    height: 250px;
-    border: solid 2px black;    
-    border-radius: 5px;
-}   
-  
-.productos__img > a > h3{
-    color: black;
-    margin: 10px;
-}
-
-
-.main__productos2{
-    display: flex;
-    justify-content:space-evenly;
-}
-
-
-.productos2__img{
-    width: 400px;
-    margin: 40px;
-    
-
-}
-
-
-
-
-.productos2__img > a > img{
-   width: 400px;
-    border: solid 2px black;
-    margin-bottom: 10px;
-}
-
-.productos2__img > a > h3{
-    font: 48px;
-    color: black;
-    margin-bottom: 10px;
-
-}
-
-
-
-
-
 /**********************Pagina Viajes************************/
 /* 
 .viajes__titulo{
