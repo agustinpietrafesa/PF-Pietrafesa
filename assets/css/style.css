@@ -360,6 +360,8 @@
 } 
 
 /*******cierra navegador******/
+
+
 .producto{
     padding: 25px;
     margin-bottom: 10px;
@@ -415,10 +417,11 @@
     }
 
     .bs_footer_copy{
-        margin: 15px;
+        margin: 12px;
     }
     .bs_footer_redes{
         justify-content: center;
+        margin-bottom: 15px;
     }
     .producto > a{
         width: 150px;
