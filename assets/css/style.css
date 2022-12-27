@@ -285,7 +285,7 @@
 }
 
 .nav-link:hover{
-    background-color: white;
+    background-color: skyblue;
     color: black;
     border-radius: 5px;
 }
@@ -296,6 +296,25 @@
     margin: 10px;
     
 } 
+
+.nav_img{
+    justify-content: ;
+}
+
+.nav_img > a > img{
+    height: 45px;
+    margin: 5px;
+}
+
+.nav_img > a:hover{
+    border-radius: 5px;
+    background-color: skyblue;
+
+}
+
+
+
+
 
 /*******cierra navegador******/
 
