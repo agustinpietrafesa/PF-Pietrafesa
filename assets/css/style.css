@@ -364,6 +364,8 @@
     .bs_footer_redes{
         justify-content: end;
     }
+
+  
  }
 @media screen and (max-width: 992px) {
     .bs_footer{
@@ -383,6 +385,8 @@
     .producto > a{
         width: 150px;
     }
+
+
         }
 @media screen and (max-width: 1200px){
     .nav-link{
