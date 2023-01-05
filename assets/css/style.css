@@ -111,6 +111,8 @@
 
   
  }
+
+
 @media screen and (max-width: 992px) {
     .bs_footer{
         text-align: center;
@@ -206,4 +208,41 @@
 
 .hide {
   display: none;
+}
+
+
+/********Page contacto********/
+
+.formulario_contacto{
+    height: 100%;
+    margin-top: 45px;
+    border-radius: 7px;
+}
+.formulario_derecha{
+    height: 526px;
+}
+
+.formulario_izquierda{
+    height: 500px;
+}
+
+.formulario_derecha > iframe{
+    height: 100%;
+    width: 90%;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 768px){
+    .formulario_derecha > iframe{
+        height: 100%;
+        width: 100%;
+        border-radius: 7px;
+    }
+    .formulario_contacto{
+        height: 100%;
+        margin-top: 45px;
+        border-radius: 7px;
+        justify-content: center;
+    }
+
 }
