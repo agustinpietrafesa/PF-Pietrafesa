@@ -285,6 +285,7 @@
      }
      .cursos__links{
         width: 450px;
+        margin: 30px;
          }
     
   
@@ -293,7 +294,7 @@
 
 
  .cursos__links{
-    margin: 30px;
+
     padding: 0px;
     background-color: black;
     border-radius: 7px;
