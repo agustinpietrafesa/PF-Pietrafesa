@@ -271,6 +271,11 @@
 
 }
 
+@media screen and (max-width: 992px){
+    .cursos__links{
+        margin: 25px;
+    }
+}
 
 
 @media screen and (min-width:992px) {
