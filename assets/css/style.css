@@ -246,3 +246,72 @@
     }
 
 }
+
+
+
+/********Page Cursos**********/
+
+
+@media screen and (max-width: 768px){
+    .padi{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .titulo_padi{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .texto_padi{
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:992px) {
+    .padi{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cursos__links > a > img{
+        height: 450px;
+     }
+     .cursos__links{
+        width: 450px;
+         }
+    
+  
+ }
+
+
+
+ .cursos__links{
+    margin: 30px;
+    padding: 0px;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+
+ }
+
+ .cursos__links > a{
+    text-decoration: none;
+ 
+ }
+
+
+ .cursos__links > a > h3{
+    margin: 10px
+ }
+
+ .cursos__links > p{
+    margin-left: 10px;
+ }
+
