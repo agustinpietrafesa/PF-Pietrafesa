@@ -1,0 +1,47 @@
+/*****footer****/
+
+.bs_footer{
+    @media(min-width:992px) {
+            align-items: center;
+        }    
+      @media (max-width: 992px) {
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }  
+        > h5{
+            font-size: 17px;
+            margin: 12px;
+            }
+        > .bs_footer_redes{
+            @media(min-width:992px) {
+                justify-content: end;
+                }
+            @media (max-width: 992px) {
+                justify-content: center;
+                margin-bottom: 15px;
+                }    
+                > .link-redes > a > img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 10px;
+                    @media (max-width: 992px){
+                        width: 35px;
+                        height: 35px;
+                        margin: 7px;  
+                        }     
+                    }
+                 }     
+        }
+
+
+
+
+
+
+
+
+    
+
+

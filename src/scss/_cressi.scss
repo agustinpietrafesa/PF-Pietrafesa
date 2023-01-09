@@ -1,0 +1,37 @@
+/**********Cressi*******/
+main{
+    .cressi_logo{
+        > img{
+            margin-top: 50px;
+        }
+    }
+    // .prod_titulo{
+    //     font-size: 35px;
+    //     margin-bottom: 60px;
+    //     margin-top: 50px;
+    //     @media(max-width: 992px){
+    //         font-size: 25px;
+    //     }
+    // }
+    .producto{
+        padding: 25px;
+        margin-bottom: 10px;
+        > a{
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+            height: 35px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        > div > img{
+            height: 250px;
+            margin: 7px;
+
+        }
+    }
+   
+}

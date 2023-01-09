@@ -1,0 +1,70 @@
+/********Page Cursos**********/
+
+.page_cursos{
+    > div > h1{
+        font-size: 50px;
+     }
+     > div > .padi{
+        margin-bottom: 50px;
+        @media (max-width: 768px){
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+            }
+        @media (min-width:992px) {
+            display: flex;
+            justify-content: center;
+            }
+            > div > h3{
+                    @media (max-width: 768px){
+                            font-size: 24px;
+                            text-align: center;
+                            margin-top: 25px;
+                        }
+                    }
+                > p{
+                    @media (max-width: 768px){
+                            font-size: 17px;
+                            margin-top: 25px;
+                        }
+                }         
+                
+            }
+
+        .cursos__links{
+            width: 450px;
+            margin: 30px;
+            padding: 0px;
+            background-color: black;
+            border-radius: 7px;
+            color: white;
+            @media (max-width: 992px){
+                    margin: 25px;
+                    width: 350px;
+                }
+                > p{
+                    margin: 10px;
+                }
+                > a{
+                    text-decoration: none;
+                    > img{
+                        height: 450px;
+                        @media (max-width: 992px){
+                            height: 350px;
+                        }   
+                    }
+                > h3{
+                    margin: 10px;
+                    }
+                }  
+                }
+        }
+    
+
+
+
+
+
+
+
+

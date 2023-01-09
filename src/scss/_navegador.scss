@@ -1,0 +1,30 @@
+/****Navegador****/
+
+.navbar-nav{
+    > a{
+            color: white;
+            background-color: black;
+            font-size: 23px;
+            border-radius: 5px;
+            margin-left: 50px;
+            padding: 5px;
+            &:hover{
+                background-color: white;
+                color: black;
+                border-radius: 5px;
+                    }
+            @media(max-width: 1200px){
+                    font-size: 20px;
+                    margin-left: 30px;
+                        }
+                 }
+        }
+       
+
+
+
+
+
+
+
+

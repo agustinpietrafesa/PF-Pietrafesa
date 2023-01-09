@@ -1,0 +1,258 @@
+/****Navegador****/
+.navbar-nav > a {
+  color: white;
+  background-color: black;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-left: 50px;
+  padding: 5px;
+}
+.navbar-nav > a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .navbar-nav > a {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+
+/*****footer****/
+@media (min-width: 992px) {
+  .bs_footer {
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .bs_footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.bs_footer > h5 {
+  font-size: 17px;
+  margin: 12px;
+}
+@media (min-width: 992px) {
+  .bs_footer > .bs_footer_redes {
+    justify-content: end;
+  }
+}
+@media (max-width: 992px) {
+  .bs_footer > .bs_footer_redes {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+.bs_footer > .bs_footer_redes > .link-redes > a > img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+@media (max-width: 992px) {
+  .bs_footer > .bs_footer_redes > .link-redes > a > img {
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+  }
+}
+
+/******Index*****/
+.card-body > a {
+  text-decoration: none;
+}
+
+.productos2__img {
+  margin-top: 40px;
+  margin: 50px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.productos2__img > a {
+  text-decoration: none;
+}
+.productos2__img > a > img {
+  width: 100%;
+}
+.productos2__img > a > h3 {
+  margin: 16px;
+}
+.productos2__img > p {
+  margin: 16px;
+  margin-top: 0px;
+}
+
+/********Reset********/
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+}
+
+/**********Cressi*******/
+main .cressi_logo > img {
+  margin-top: 50px;
+}
+main .producto {
+  padding: 25px;
+  margin-bottom: 10px;
+}
+main .producto > a {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+main .producto > div > img {
+  height: 250px;
+  margin: 7px;
+}
+
+/********Page Cursos**********/
+.page_cursos > div > h1 {
+  font-size: 50px;
+}
+.page_cursos > div > .padi {
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .page_cursos > div > .padi {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 992px) {
+  .page_cursos > div > .padi {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .page_cursos > div > .padi > div > h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .page_cursos > div > .padi > p {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+}
+.page_cursos .cursos__links {
+  width: 450px;
+  margin: 30px;
+  padding: 0px;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+}
+@media (max-width: 992px) {
+  .page_cursos .cursos__links {
+    margin: 25px;
+    width: 350px;
+  }
+}
+.page_cursos .cursos__links > p {
+  margin: 10px;
+}
+.page_cursos .cursos__links > a {
+  text-decoration: none;
+}
+.page_cursos .cursos__links > a > img {
+  height: 450px;
+}
+@media (max-width: 992px) {
+  .page_cursos .cursos__links > a > img {
+    height: 350px;
+  }
+}
+.page_cursos .cursos__links > a > h3 {
+  margin: 10px;
+}
+
+/********Page contacto********/
+.contacto > div > h1 {
+  font-size: 50px;
+}
+.contacto > .formulario_contacto {
+  height: 100%;
+  margin-top: 45px;
+  border-radius: 7px;
+}
+@media (max-width: 768px) {
+  .contacto > .formulario_contacto {
+    height: 100%;
+    margin-top: 45px;
+    border-radius: 7px;
+    justify-content: center;
+  }
+}
+.contacto > .formulario_contacto > .formulario_derecha {
+  height: 526px;
+}
+.contacto > .formulario_contacto > .formulario_derecha > iframe {
+  height: 100%;
+  width: 90%;
+  border-radius: 7px;
+}
+@media (max-width: 768px) {
+  .contacto > .formulario_contacto > .formulario_derecha > iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+  }
+}
+.contacto > .formulario_contacto > .formulario_izquierda {
+  height: 500px;
+}
+
+/*********Boostrap page viajes********/
+.viajes > div > h1 {
+  font-size: 50px;
+}
+.viajes > div > .tarjetas_viajes {
+  margin: 40px;
+  margin-top: 0px;
+}
+.viajes > .links-viajes-galeria > a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #0d6efd;
+}
+.viajes > .image-container {
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.viajes > .image-container > img {
+  height: 277px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */

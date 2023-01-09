@@ -1,0 +1,46 @@
+/*********Boostrap page viajes********/
+
+.viajes{
+    > div > h1{
+        font-size: 50px;
+    }
+    > div > .tarjetas_viajes{
+        margin: 40px;
+        margin-top: 0px;
+    }
+    > .links-viajes-galeria > a {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none;
+        width: 150px;
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: #0d6efd;
+    }
+    > .image-container{
+        width: 100%;
+        height: auto;
+        max-width: 1440px;
+        margin: 0 auto;
+        > img{
+            height: 277px;
+            max-width: 100%;
+            overflow: hidden;
+            padding: 10px;
+
+        }
+    }
+  
+}
+
+
+.hide {
+  display: none;
+}
+
+
+
+
+
