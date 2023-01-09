@@ -13,7 +13,7 @@
 /********Boostrap******/
 
 
-/****Navegador****//
+/****Navegador****/
 .navbar-nav > a{
     color: white;
 } 
@@ -44,9 +44,6 @@
     
 } 
 
-.nav_img{
-    justify-content: ;
-}
 
 .nav_img > a > img{
     height: 45px;
