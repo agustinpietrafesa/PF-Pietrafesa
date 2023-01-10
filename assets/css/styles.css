@@ -62,11 +62,15 @@
 }
 
 /******Index*****/
-.card-body > a {
+.card {
+  box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.42);
+}
+.card > .card-body > a {
   text-decoration: none;
 }
 
 .productos2__img {
+  box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.58);
   margin-top: 40px;
   margin: 50px;
   border-radius: 10px;
@@ -101,8 +105,10 @@ main .cressi_logo > img {
   margin-top: 50px;
 }
 main .producto {
-  padding: 25px;
-  margin-bottom: 10px;
+  box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.64);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
 }
 main .producto > a {
   color: white;
@@ -160,6 +166,7 @@ main .producto > div > img {
   background-color: black;
   border-radius: 7px;
   color: white;
+  box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.64);
 }
 @media (max-width: 992px) {
   .page_cursos .cursos__links {
@@ -193,6 +200,7 @@ main .producto > div > img {
   height: 100%;
   margin-top: 45px;
   border-radius: 7px;
+  box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.64);
 }
 @media (max-width: 768px) {
   .contacto > .formulario_contacto {
