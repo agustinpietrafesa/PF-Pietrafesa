@@ -237,7 +237,7 @@ main .producto > div > img {
   margin: 40px;
   margin-top: 0px;
 }
-.viajes > .links-viajes-galeria > a {
+.viajes > .galeria > .links-viajes-galeria > a {
   display: inline-block;
   padding: 10px;
   margin: 5px;
@@ -248,13 +248,13 @@ main .producto > div > img {
   text-align: center;
   background-color: #0d6efd;
 }
-.viajes > .image-container {
+.viajes > .galeria > .image-container {
   width: 100%;
   height: auto;
   max-width: 1440px;
   margin: 0 auto;
 }
-.viajes > .image-container > img {
+.viajes > .galeria > .image-container > img {
   height: 277px;
   max-width: 100%;
   overflow: hidden;
